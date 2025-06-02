@@ -1,0 +1,119 @@
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background: linear-gradient(120deg, #f0f4f8 0%, #e0e7ef 100%);
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: #222;
+  padding: 20px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.navbar-link:hover {
+  background: #4f8cff;
+}
+
+.section-title {
+  color: #4f8cff;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+.about-section, .work-section, .resume-section, .contact-section {
+  background: #fff;
+  margin: 30px auto;
+  padding: 30px 20px;
+  border-radius: 12px;
+  max-width: 700px;
+  box-shadow: 0 4px 24px rgba(79,140,255,0.07);
+}
+
+.about-video {
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+.work-list {
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.work-item {
+  margin: 12px 0;
+  font-size: 1.1rem;
+}
+
+.work-link {
+  color: #4f8cff;
+  text-decoration: underline;
+}
+
+.resume-link {
+  color: #4f8cff;
+  font-weight: bold;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-input, .contact-textarea {
+  padding: 10px;
+  border: 1px solid #bcd;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.contact-submit {
+  background: #4f8cff;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.contact-submit:hover {
+  background: #357ae8;
+}
+
+.footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 18px 0;
+  margin-top: 40px;
+  border-radius: 0 0 12px 12px;
+}
